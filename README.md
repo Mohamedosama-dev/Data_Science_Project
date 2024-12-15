@@ -80,7 +80,8 @@ This classifier predicts the **charity category preferences** based on user data
 - **Key Features**: `month`, `user_id`, `category_name`
 - **Target Variable**: `charity_category_id`
 - **Evaluation Metric**: Accuracy, Confusion Matrix
-![Screenshot 2024-12-15 at 19-20-49 Random Forest Classifier - بحث Google](https://github.com/user-attachments/assets/0abb07ad-f810-48ae-9440-eaa1a66168a8)
+- ![Screenshot 2024-12-15 at 19-20-49 Random Forest Classifier - بحث Google](https://github.com/user-attachments/assets/0abb07ad-f810-48ae-9440-eaa1a66168a8)
+
 
 
 ## Results
