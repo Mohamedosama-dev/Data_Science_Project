@@ -1,4 +1,5 @@
-# Charity Prediction System
+
+# Prediction System
 
 This project uses machine learning models to predict different aspects of charity donations based on user transaction data. We have applied several machine learning techniques including regression and classification algorithms to forecast various donation-related outcomes. The models are trained using data from an SQLite database that contains information about transactions, services, and charity categories.
 
@@ -72,8 +73,13 @@ This classifier predicts the **charity category preferences** based on user data
 - **Target Variable**: `charity_category_id`
 - **Evaluation Metric**: Accuracy, Confusion Matrix
 
-## Installation Instructions
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/charity-prediction-system.git
+## Results
+
+### Confusion Matrix
+The confusion matrix provides insights into the classification model's performance by showing the number of true positive, false positive, true negative, and false negative predictions.
+
+### Residual Plots
+Residual plots are used to visualize the residuals (errors) of the regression models, helping to understand the distribution of prediction errors.
+
+
