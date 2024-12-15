@@ -2,6 +2,8 @@
 # Prediction System
 
 This project uses machine learning models to predict different aspects of charity donations based on user transaction data. We have applied several machine learning techniques including regression and classification algorithms to forecast various donation-related outcomes. The models are trained using data from an SQLite database that contains information about transactions, services, and charity categories.
+![Screenshot 2024-12-15 at 18-40-48 Prediction AI - بحث Google](https://github.com/user-attachments/assets/82321ad6-59c5-491f-aa3b-c883cf2683e7)
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
