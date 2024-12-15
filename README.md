@@ -20,7 +20,7 @@ This project uses machine learning models to predict different aspects of charit
   - [Confusion Matrix](#confusion-matrix)
   - [Residual Plots](#residual-plots)
   - [Feature Importance](#feature-importance)
-- [License](#license)
+
 
 ## Project Overview
 The goal of this project is to predict various aspects of charity donations based on data from an SQLite database. The project applies machine learning techniques such as **Random Forest**, **Gradient Boosting**, and **XGBoost** to build predictive models for:
