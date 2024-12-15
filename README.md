@@ -36,6 +36,8 @@ The code utilizes multiple models to handle regression and classification tasks,
 - **Scikit-learn**: Machine learning library for model building and evaluation.
 - **XGBoost**: Advanced boosting algorithm for prediction.
 - **Matplotlib & Seaborn**: For visualizing results, including confusion matrices, residual plots, and feature importance.
+- ![gifmaker_me(1)](https://github.com/user-attachments/assets/68781ad8-4015-46da-b85f-eefba4d5c053)
+
 
 ## Database Schema
 The project uses data from an SQLite database, `datawarehouse.db`, which includes the following key tables:
@@ -53,6 +55,7 @@ This model is used for forecasting **service demand** based on the `month` and `
 - **Key Features**: `month`, `service_type`
 - **Target Variable**: `amount`
 - **Evaluation Metric**: Mean Squared Error (MSE)
+- ![Screenshot 2024-12-15 at 19-17-29 Random Forest Regressor logo - بحث Google](https://github.com/user-attachments/assets/ba98e77b-2c58-446b-af1d-1c0b2ba21ebe)
 
 ### Gradient Boosting Regressor
 This model predicts **transaction amounts** based on the `month` and `user_id`. It uses a gradient boosting approach to minimize errors.
@@ -60,6 +63,7 @@ This model predicts **transaction amounts** based on the `month` and `user_id`. 
 - **Key Features**: `month`, `user_id`
 - **Target Variable**: `amount`
 - **Evaluation Metric**: Mean Squared Error (MSE)
+- ![Screenshot 2024-12-15 at 19-18-33 Gradient Boosting Regressor logo - بحث Google](https://github.com/user-attachments/assets/771fd38e-ffef-4649-b9a2-2d4f0a41a9b9)
 
 ### XGBoost Regressor
 An optimized gradient boosting model used to predict **charity donations** based on `month` and `charity_name`.
@@ -67,6 +71,8 @@ An optimized gradient boosting model used to predict **charity donations** based
 - **Key Features**: `month`, `charity_name`
 - **Target Variable**: `amount`
 - **Evaluation Metric**: Mean Squared Error (MSE)
+- ![Screenshot 2024-12-15 at 19-19-47 XGBoost Regressor logo - بحث Google](https://github.com/user-attachments/assets/c53d3de6-5a7f-4bae-9194-876d8dec133d)
+
 
 ### Random Forest Classifier
 This classifier predicts the **charity category preferences** based on user data.
@@ -74,6 +80,7 @@ This classifier predicts the **charity category preferences** based on user data
 - **Key Features**: `month`, `user_id`, `category_name`
 - **Target Variable**: `charity_category_id`
 - **Evaluation Metric**: Accuracy, Confusion Matrix
+![Screenshot 2024-12-15 at 19-20-49 Random Forest Classifier - بحث Google](https://github.com/user-attachments/assets/0abb07ad-f810-48ae-9440-eaa1a66168a8)
 
 
 ## Results
