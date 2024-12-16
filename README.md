@@ -19,7 +19,7 @@ This project uses machine learning models to predict different aspects of charit
 - [Results](#results)
   - [Confusion Matrix](#confusion-matrix)
   - [Residual Plots](#residual-plots)
-  - [Feature Importance](#feature-importance)
+
 
 
 ## Project Overview
