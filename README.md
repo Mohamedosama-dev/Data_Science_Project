@@ -66,7 +66,7 @@ This model predicts **transaction amounts** based on the `month` and `user_id`. 
 - ![Screenshot 2024-12-15 at 19-18-33 Gradient Boosting Regressor logo - بحث Google](https://github.com/user-attachments/assets/771fd38e-ffef-4649-b9a2-2d4f0a41a9b9)
 
 ### XGBoost Regressor
-An optimized gradient boosting model used to predict **charity donations** based on `month` and `charity_name`.
+An optimized gradient boosting model used to predict **charity donations** based on `month` and `charity_name` for better control over overfitting .
 
 - **Key Features**: `month`, `charity_name`
 - **Target Variable**: `amount`
@@ -90,6 +90,6 @@ This classifier predicts the **charity category preferences** based on user data
 The confusion matrix provides insights into the classification model's performance by showing the number of true positive, false positive, true negative, and false negative predictions.
 
 ### Residual Plots
-Residual plots are used to visualize the residuals (errors) of the regression models, helping to understand the distribution of prediction errors.
+Residual plots are used to visualize the residuals  of the regression models, helping to understand the distribution of prediction .
 
 
